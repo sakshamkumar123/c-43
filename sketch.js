@@ -8,7 +8,7 @@ var hourHand, minuteHand, secondHand
 function setup() {
   createCanvas(400,400);
   angleMode(DEGREES)
-  rotate(-90)
+  rotate(-95)
 
   
 }
@@ -46,6 +46,7 @@ function draw() {
   pop()
 strokeWeight(10)
 noFill()
+  stroke("red")
   arc(0,0,300,300,-90,secondHand)
 
   stroke("blue")
