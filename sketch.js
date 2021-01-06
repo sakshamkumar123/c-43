@@ -46,14 +46,13 @@ function draw() {
   pop()
 strokeWeight(10)
 noFill()
-  stroke("red")
-  arc(0,0,300,300,0,secondHand)
+  arc(0,0,300,300,-90,secondHand)
 
   stroke("blue")
-  arc(0,0,280,280,0,minuteHand)
+  arc(0,0,280,280,-90,minuteHand)
 
   stroke("green")
-  arc(0,0,260,260,0,hourHand)
+  arc(0,0,260,260,-90,hourHand)
 
   drawSprites();
 }
